@@ -1,0 +1,9 @@
+Package: DSR
+Title: Data sets for Data Science with R
+Version: 0.1
+Authors@R: "First Last <first.last@example.com> [aut, cre]"
+Description: This package contains data sets used in Data Science with R by 
+  Garrett Grolemund, available at shop.oreilly.com/product/0636920034407.do
+Depends: R (>= 3.1.2)
+License: CC0
+LazyData: true
