@@ -1,4 +1,6 @@
 # making table data sets
+library(dplyr)
+library(tidyr)
 
 who <- read.csv("data-raw/who.csv")
 population <- read.csv("data-raw/population.csv")
@@ -34,7 +36,7 @@ table5 <-
 
 table6 <-
   table3 %>% 
-  separate(rate, into = c("cases", "population"), sep = "/")
+  separate(year, into = c("century", "year"), sep = 2)
 
 write.csv(table1, file = "data-raw/table1.csv", row.names = FALSE)
 write.csv(table2, file = "data-raw/table2.csv", row.names = FALSE)
