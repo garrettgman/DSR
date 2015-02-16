@@ -8,11 +8,11 @@
 \alias{table4}
 \alias{table5}
 \title{tabular layouts}
-\format{\preformatted{Classes ‘tbl_df’, ‘tbl’ and 'data.frame':	9 obs. of  4 variables:
- $ country   : chr  "Afghanistan" "Afghanistan" "Afghanistan" "Brazil" ...
- $ year      : int  1999 2000 2001 1999 2000 2001 1999 2000 2001
- $ cases     : int  745 2666 4639 37737 80488 37491 212258 213766 212766
- $ population: int  19987071 20595360 21347782 172006362 174504898 176968205 1272915272 1280428583 1287890449
+\format{\preformatted{Classes ‘tbl_df’, ‘tbl’ and 'data.frame':	6 obs. of  4 variables:
+ $ country   : Factor w/ 219 levels "Afghanistan",..: 1 1 29 29 43 43
+ $ year      : int  1999 2000 1999 2000 1999 2000
+ $ cases     : int  745 2666 37737 80488 212258 213766
+ $ population: int  19987071 20595360 172006362 174504898 1272915272 1280428583
 }}
 \source{
 \url{http://www.who.int/tb/country/data/download/en/}
@@ -24,7 +24,7 @@ table1
 Data sets that demonstrate multiple ways to layout the same tabular data.
 }
 \details{
-\code{table1}, \code{table2}, \code{table3}, \code{table4}, and \code{table5} all display the number of TB cases documented by the World Health Organization in Afghanistan, Brazil, and China between 1999 and 2001. The data contains values associated with four variables (country, year, cases, and population), but each table organizes the values in a different layout.
+\code{table1}, \code{table2}, \code{table3}, \code{table4}, and \code{table5} all display the number of TB cases documented by the World Health Organization in Afghanistan, Brazil, and China between 1999 and 2000. The data contains values associated with four variables (country, year, cases, and population), but each table organizes the values in a different layout.
 
 The data is a subset of the data contained in the World Health
 Organization Global Tuberculosis Report
